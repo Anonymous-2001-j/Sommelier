@@ -202,12 +202,3 @@ The `config.json` file allows you to configure:
 7. **Post-processing**: Korean pronunciation conversion, etc.
 8. **Save Results**: JSON and segmented MP3 file generation
 
-## License
-
-This project is licensed under the MIT License. (Copyright (c) 2024 Amphion)
-
-## Notes
-
-- ASR MoE uses ROVER (Recognizer Output Voting Error Reduction) ensemble technique
-- Repetition filtering removes low-quality transcriptions where 15-grams repeat more than 5 times
-- Long segments are automatically split into chunks of 30 seconds or less
